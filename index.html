@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Psicodelic Music Visualizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">
+        <h1>Psicodelic Hills Visualizer</h1>
+        <label class="upload">
+            <input type="file" id="file-input" accept="audio/mp3,audio/wav,audio/m4a" />
+            <span>Selecciona tu música</span>
+        </label>
+        <p>Moderno, psicodélico, cambiante y hermoso</p>
+    </div>
+    <canvas id="canvas"></canvas>
+    <audio id="audio" controls style="display:none"></audio>
+    <script src="visualizer.js"></script>
+</body>
+</html>
